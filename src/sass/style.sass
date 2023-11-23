@@ -1,0 +1,167 @@
+$color1: #454F5B
+$color2: #FAFAFA
+$color3: #161C24
+$color4: #A4A4A4
+$color5: #4295E4
+$color6: #ADD7FF
+
+* 
+	font-family: 'SFP', sans-serif
+	margin: 0
+
+.first-header 
+	min-height: 44px
+	width: 100%
+	background-color: $color1
+	color: white
+	font-weight: 500
+	font-size: 16px
+	letter-spacing: 1.92px
+	display: flex
+	justify-content: center
+	align-items: center
+	&__callback 
+		text-decoration: underline
+		margin-left: 197px
+	
+
+.second-header__menu 
+	height: 82px
+	box-shadow: 0px -1px 0px 0px #C4CDD5 inset
+	display: flex
+	align-items: center
+	justify-content: center
+
+.second-header__logo img 
+	margin: 0 100px 0 100px
+	width: 50.4px
+	height: 42px
+
+.second-header__list 
+	display: flex
+	li 
+		list-style: none
+		margin-right: 32px
+		&:last-child 
+			margin-right: 281px
+		
+	
+
+.second-header__phone 
+	display: flex
+	align-items: center
+	margin-right: 34px
+	img 
+		width: 20px
+		height: 20px
+		margin-right: 8px
+
+.second-header__button
+	width: 125px
+	height: 35px
+	margin-right: 35px
+	border: none
+	background-color: $color5
+	a 
+		text-decoration: none
+		color: white
+	
+
+		
+	
+
+.second-header__icons img 
+	width: 32px
+	height: 32px
+	&:first-child 
+		margin-right: 24px
+	
+
+.first-screen 
+	min-height: 774px
+	background-color: $color2
+	&__item 
+		position: relative
+		top: 128px
+		display: flex
+		align-items: center
+		justify-content: center
+		&-image img 
+			width: 489px
+			height: 518px
+		
+		button 
+			margin-top: 16px
+			width: 220px
+			height: 50px
+			background-color: $color5
+			border: none
+			color: white
+		
+	
+	&__descr 
+		margin-left: 74px
+	
+	&__title 
+		color: $color3
+		font-size: 44px
+		font-style: normal
+		font-weight: 600
+		white-space: pre-wrap
+	
+	&__sub-title 
+		margin-top: 20px
+		color: $color1
+		font-size: 14px
+		font-style: normal
+		font-weight: 400
+		white-space: pre-wrap
+	
+	&__price-new 
+		font-size: 24px
+		font-weight: 600
+		color: black
+	
+	&__price-old 
+		font-size: 24px
+		text-decoration: line-through
+		color: $color4
+	
+	&__price-name 
+		margin-top: 32px
+		color: grey
+		font-size: 12px
+		font-style: normal
+		font-weight: 400
+	
+	&__slider 
+		margin-top: 150px
+		gap: 24px
+		&_navigation-arrows_right, &_navigation-arrows_left 
+			width: 32px
+			height: 32px
+		
+		&_navigation 
+			display: flex
+			align-items: center
+			justify-content: center
+			&-dots 
+				display: flex
+				align-items: center
+				justify-content: center
+			
+			&-dot 
+				margin-right: 15px
+				width: 6px
+				height: 6px
+				background-color: $color6
+				border-radius: 50px
+				&:last-child 
+					margin-right: 24px
+				
+				&:first-child 
+					margin-left: 24px
+				
+.active 
+	width: 24px
+	height: 24px

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: SFP;
+  font-weight: 700;
+  font-style: normal;
+  src: local("SFP"),
+       url("../fonts/AnyConv.com__SFProText-Bold.woff2") format('woff2'),
+       url("../fonts/AnyConv.com__SFProText-Bold.woff") format('woff'),
+       url("../fonts/AnyConv.com__SFProText-Bold.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: SFP;
+  font-weight: 600;
+  font-style: normal;
+  src: local("SFP"),
+       url("../fonts/AnyConv.com__SFProText-Semibold.woff2") format('woff2'),
+       url("../fonts/AnyConv.com__SFProText-Semibold.woff") format('woff'),
+       url("../fonts/AnyConv.com__SFProText-Semibold.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: SFP;
+  font-weight: 500;
+  font-style: normal;
+  src: local("SFP"),
+       url("../fonts/AnyConv.com__SFProText-Medium.woff2") format('woff2'),
+       url("../fonts/AnyConv.com__SFProText-Medium.woff") format('woff'),
+       url("../fonts/AnyConv.com__SFProText-Medium.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: SFP;
+  font-weight: 400;
+  font-style: normal;
+  src: local("SFP"),
+       url("../fonts/AnyConv.com__SFProText-Regular.woff2") format('woff2'),
+       url("../fonts/AnyConv.com__SFProText-Regular.woff") format('woff'),
+       url("../fonts/AnyConv.com__SFProText-Regular.eot") format('eot');
+  font-display: swap;
+}
+@font-face {
+  font-family: SFP;
+  font-weight: 300;
+  font-style: normal;
+  src: local("SFP"),
+       url("../fonts/AnyConv.com__SFProText-Light.woff2") format('woff2'),
+       url("../fonts/AnyConv.com__SFProText-Light.woff") format('woff'),
+       url("../fonts/AnyConv.com__SFProText-Light.eot") format('eot');
+  font-display: swap;
+}
+
